@@ -54,12 +54,11 @@ Missing values are handled using median imputation to retain useful distribution
 ### Local Environment
 
 1. Install dependencies:
-
    ```bash
-   pip install pandas numpy scikit-learn
+   pip install -r requirements.txt
    ```
-2. Place `water_potability.csv` inside a `data/` directory.
-3. Launch the notebook:
+3. Place `water_potability.csv` inside a `data/` directory.
+4. Launch the notebook:
 
    ```bash
    jupyter notebook notebook.ipynb
